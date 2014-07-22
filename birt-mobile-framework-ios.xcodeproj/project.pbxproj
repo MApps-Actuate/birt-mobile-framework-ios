@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		F952FCC9197F2AE80072439C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		F952FCCA197F2B6C0072439C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		F952FCC2197F27060072439C = {
 			isa = PBXGroup;
 			children = (
+				F952FCCA197F2B6C0072439C /* .gitignore */,
+				F952FCC9197F2AE80072439C /* README.md */,
 			);
 			sourceTree = "<group>";
 		};

@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F952FCE31982B8C50072439C /* BMDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F952FCE11982B8C50072439C /* BMDK.cpp */; };
+		F952FCE41982B8C50072439C /* BMDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F952FCE21982B8C50072439C /* BMDK.h */; };
+		F952FCEC198307650072439C /* Old.java in Sources */ = {isa = PBXBuildFile; fileRef = F952FCEB198307650072439C /* Old.java */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F952FCD4198184450072439C /* libBMDK.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libBMDK.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F952FCE11982B8C50072439C /* BMDK.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BMDK.cpp; sourceTree = "<group>"; };
+		F952FCE21982B8C50072439C /* BMDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDK.h; sourceTree = "<group>"; };
+		F952FCEB198307650072439C /* Old.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Old.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F952FCD1198184450072439C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F952FCCB198184450072439C = {
+			isa = PBXGroup;
+			children = (
+				F952FCE11982B8C50072439C /* BMDK.cpp */,
+				F952FCE21982B8C50072439C /* BMDK.h */,
+				F952FCED198307800072439C /* Old */,
+				F952FCD5198184450072439C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F952FCD5198184450072439C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F952FCD4198184450072439C /* libBMDK.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F952FCED198307800072439C /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				F952FCEB198307650072439C /* Old.java */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F952FCD2198184450072439C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F952FCE41982B8C50072439C /* BMDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F952FCD3198184450072439C /* BMDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F952FCD8198184450072439C /* Build configuration list for PBXNativeTarget "BMDK" */;
+			buildPhases = (
+				F952FCD0198184450072439C /* Sources */,
+				F952FCD1198184450072439C /* Frameworks */,
+				F952FCD2198184450072439C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMDK;
+			productName = BMDK;
+			productReference = F952FCD4198184450072439C /* libBMDK.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F952FCCC198184450072439C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Actuate Corporation";
+			};
+			buildConfigurationList = F952FCCF198184450072439C /* Build configuration list for PBXProject "BMDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F952FCCB198184450072439C;
+			productRefGroup = F952FCD5198184450072439C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F952FCD3198184450072439C /* BMDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F952FCD0198184450072439C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F952FCE31982B8C50072439C /* BMDK.cpp in Sources */,
+				F952FCEC198307650072439C /* Old.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F952FCD6198184450072439C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F952FCD7198184450072439C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F952FCD9198184450072439C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F952FCDA198184450072439C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F952FCCF198184450072439C /* Build configuration list for PBXProject "BMDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F952FCD6198184450072439C /* Debug */,
+				F952FCD7198184450072439C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F952FCD8198184450072439C /* Build configuration list for PBXNativeTarget "BMDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F952FCD9198184450072439C /* Debug */,
+				F952FCDA198184450072439C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F952FCCC198184450072439C /* Project object */;
+}

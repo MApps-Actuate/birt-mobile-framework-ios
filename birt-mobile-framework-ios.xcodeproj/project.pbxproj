@@ -6,18 +6,38 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		F952FCDF198184460072439C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F952FCDB198184450072439C /* BMDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F952FCD4198184450072439C;
+			remoteInfo = BMDK;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F952FCC9197F2AE80072439C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		F952FCCA197F2B6C0072439C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F952FCDB198184450072439C /* BMDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BMDK.xcodeproj; path = BMDK/BMDK.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		F952FCC2197F27060072439C = {
 			isa = PBXGroup;
 			children = (
+				F952FCDB198184450072439C /* BMDK.xcodeproj */,
 				F952FCCA197F2B6C0072439C /* .gitignore */,
 				F952FCC9197F2AE80072439C /* README.md */,
 			);
+			sourceTree = "<group>";
+		};
+		F952FCDC198184450072439C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F952FCE0198184460072439C /* libBMDK.dylib */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -37,11 +57,27 @@
 			);
 			mainGroup = F952FCC2197F27060072439C;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F952FCDC198184450072439C /* Products */;
+					ProjectRef = F952FCDB198184450072439C /* BMDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F952FCE0198184460072439C /* libBMDK.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libBMDK.dylib;
+			remoteRef = F952FCDF198184460072439C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		F952FCC7197F27060072439C /* Debug */ = {

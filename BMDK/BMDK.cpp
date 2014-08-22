@@ -9,6 +9,7 @@
 //
 
 #include "BMDK.h"
+#include "SecurityMgr.h"
 
 class BMDK {
     /**
@@ -23,6 +24,7 @@ class BMDK {
     private: std::string        host;
     private: std::string        volume;
     private: std::string        key;
+    private: SecurityMgr        securityMgr;
     //private: Cipher              ecipher;
     //private: Cipher              dcipher;
     //private: MessageDigest       MD5;
@@ -33,8 +35,12 @@ class BMDK {
     private: const std::string  viewReportType      = "host/iportal/executereport.do?__locale=en_US&__vp=volumename&volume=volumename&closex=true&__executableName=reportname&__requesttype=immediate&__format=formattype";
     private: const std::string  viewReportTypeMD5   = createHash(viewReportType);
     
+    /**
+     * BMDL constructor. This will create encryption/decryption
+     * keys that persist during the life of this Class
+     */
     public: BMDK() {
-        
+        init();
     };
     
     /**
@@ -47,7 +53,17 @@ class BMDK {
      * @param volume
      */
     public: BMDK(std::string username, std::string password, std::string host, std::string volume) {
-        
+        init();
+    };
+    
+    private: void init() {
+        try {
+            securityMgr = new SecurityMgr[];
+            // Create AES key
+            key = securityMgr.createKey[];
+        } catch (std::exception ex) {
+            std::cout << ex.what() << std::endl;
+            }
     };
     
     /**
@@ -57,7 +73,8 @@ class BMDK {
      * @return The final hash of what has been passed in
      */
     private: std::string createHash(std::string toHash) {
-        return "dummy string";
+        std::string sEncodedData = securityMgr.encryptIt(toHash,key);
+        return sEncodedData;
     };
     
     /**

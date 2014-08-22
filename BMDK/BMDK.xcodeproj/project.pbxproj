@@ -10,6 +10,10 @@
 		F952FCE31982B8C50072439C /* BMDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F952FCE11982B8C50072439C /* BMDK.cpp */; };
 		F952FCE41982B8C50072439C /* BMDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F952FCE21982B8C50072439C /* BMDK.h */; };
 		F952FCEC198307650072439C /* Old.java in Sources */ = {isa = PBXBuildFile; fileRef = F952FCEB198307650072439C /* Old.java */; };
+		F9E15C1D19995CBD00AE7873 /* SecurityMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E15C1B19995CBD00AE7873 /* SecurityMgr.h */; };
+		F9E15C1E19995CBD00AE7873 /* SecurityMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E15C1C19995CBD00AE7873 /* SecurityMgr.m */; };
+		F9E15C25199A998700AE7873 /* NSData-CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E15C23199A998700AE7873 /* NSData-CommonCrypto.h */; };
+		F9E15C26199A998700AE7873 /* NSData-CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E15C24199A998700AE7873 /* NSData-CommonCrypto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +21,10 @@
 		F952FCE11982B8C50072439C /* BMDK.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BMDK.cpp; sourceTree = "<group>"; };
 		F952FCE21982B8C50072439C /* BMDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDK.h; sourceTree = "<group>"; };
 		F952FCEB198307650072439C /* Old.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Old.java; sourceTree = "<group>"; };
+		F9E15C1B19995CBD00AE7873 /* SecurityMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityMgr.h; sourceTree = "<group>"; };
+		F9E15C1C19995CBD00AE7873 /* SecurityMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityMgr.m; sourceTree = "<group>"; };
+		F9E15C23199A998700AE7873 /* NSData-CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData-CommonCrypto.h"; sourceTree = "<group>"; };
+		F9E15C24199A998700AE7873 /* NSData-CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData-CommonCrypto.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,10 @@
 		F952FCCB198184450072439C = {
 			isa = PBXGroup;
 			children = (
+				F9E15C23199A998700AE7873 /* NSData-CommonCrypto.h */,
+				F9E15C24199A998700AE7873 /* NSData-CommonCrypto.m */,
+				F9E15C1B19995CBD00AE7873 /* SecurityMgr.h */,
+				F9E15C1C19995CBD00AE7873 /* SecurityMgr.m */,
 				F952FCE11982B8C50072439C /* BMDK.cpp */,
 				F952FCE21982B8C50072439C /* BMDK.h */,
 				F952FCED198307800072439C /* Old */,
@@ -63,7 +75,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E15C25199A998700AE7873 /* NSData-CommonCrypto.h in Headers */,
 				F952FCE41982B8C50072439C /* BMDK.h in Headers */,
+				F9E15C1D19995CBD00AE7873 /* SecurityMgr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F952FCE31982B8C50072439C /* BMDK.cpp in Sources */,
+				F9E15C1E19995CBD00AE7873 /* SecurityMgr.m in Sources */,
+				F9E15C26199A998700AE7873 /* NSData-CommonCrypto.m in Sources */,
 				F952FCEC198307650072439C /* Old.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +247,7 @@
 				F952FCDA198184450072439C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
